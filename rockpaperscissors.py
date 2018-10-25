@@ -61,6 +61,6 @@ if count1==a:
 	print("you won the game...CONGRATS")
 if count1==count2:
 	print("the game is draw")
-else:
+if count2==a:
 	print("sorry you lost the game..better luck next time")	
 
