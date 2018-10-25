@@ -1,3 +1,4 @@
+#a simple telegram bot which gives you flash news in iniad ...the skeletal code is taken from "https://www.codementor.io/garethdwyer/building-a-telegram-bot-using-python-part-1-goi5fncay"
 import json 
 import requests
 import time
@@ -13,7 +14,7 @@ def scrape():
         a.append(match[i].getText())
     return('\n'.join(a))
 
-TOKEN = "786808970:AAFdKpvfTTDXrRThT4bnPXcsm39tQJC8FwU"
+TOKEN = "<Your Token>"
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 
