@@ -8,7 +8,7 @@ import bs4
 
 def scrape():
     a = []
-    res = requests.get("https://timesofindia.indiatimes.com/home/headlines")
+    res = requests.get("https://timesofindia.indiatimes.com/home/")
     soup = bs4.BeautifulSoup(res.text, "html.parser")
     match = soup.select(".w_tle")
     for i in range(5):
